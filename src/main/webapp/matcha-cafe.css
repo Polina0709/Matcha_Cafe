@@ -1,0 +1,289 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Comic Neue", cursive;
+    margin: 0;
+    line-height: normal;
+}
+header {
+    display: flex;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px 50px #fff;
+    height: 150px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 48px;
+    color: #9b5368;
+}
+.logo {
+    position: fixed;
+    width: 100%;
+    height: 255px;
+}
+
+.matcha-logo {
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    width: 115px;
+    height: 115px;
+    object-fit: cover;
+}
+.matcha-cafe {
+    position: absolute;
+    font-family: Agbalumo;
+    top: 45px;
+    left: 205px;
+    display: inline-block;
+    font-size: 48px;
+}
+nav {
+    position: absolute;
+    top: 82px;
+    left: 925px;
+    width: 512px;
+    height: 43px;
+    font-size: 32px;
+}
+header button {
+    position: absolute;
+    top: 0%;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    background: none;
+    border: none;
+    color: #b08a95;
+    font-size: 26px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+#main_b{
+    left: 0%;
+}
+#menu_b {
+    left: 20%;
+}
+#matcha_b {
+    left: 40%;
+}
+#about_b {
+    left: 65%;
+}
+header button:hover {
+    color: #7b2b43;
+}
+.nav-btn.active {
+    color: #7b2b43;
+}
+main {
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+}
+section {
+    position: relative;
+    height: 750px;
+    scroll-margin-top: 200px;
+}
+
+main button {
+    position: absolute;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    box-shadow: 0px 4px 10px #9b5368;
+    border-radius: 25px;
+    border: none;
+    background-color: #7b2b43;
+    color: #fff;
+    width: 175px;
+    height: 65px;
+    font-size: 24px;
+}
+
+.gradient-1 {
+    position: absolute;
+    top: 100px;
+    left: 65px;
+    width: 650px;
+    height: 650px;
+    background: transparent;
+    object-fit: cover;
+}
+.gradient-2 {
+    position: absolute;
+    right: 65px;
+    width: 650px;
+    height: 650px;
+    background: transparent;
+    object-fit: cover;
+}
+.gradient-3 {
+    position: absolute;
+    left: 5px;
+    width: 650px;
+    height: 650px;
+    background: transparent;
+    object-fit: contain;
+}
+.gradient-4 {
+    position: absolute;
+    right: 65px;
+    width: 650px;
+    height: 650px;
+    background: transparent;
+    object-fit: contain;
+}
+.model-1 {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    width: 700px;
+    height: 700px;
+    background: transparent;
+    object-fit: cover;
+}
+.model-2 {
+    position: absolute;
+    top: 50px;
+    rotate: 10deg;
+    right: 65px;
+    width: 650px;
+    height: 650px;
+    background: transparent;
+    object-fit: cover;
+}
+.model-3 {
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    width: 650px;
+    height: 650px;
+    background: transparent;
+    object-fit: contain;
+}
+.model-4 {
+    position: absolute;
+    top: 50px;
+    right: 65px;
+    width: 650px;
+    height: 650px;
+    background: transparent;
+    object-fit: contain;
+}
+.explore-our-space {
+    position: absolute;
+    top: 200px;
+    left: 215px;
+    font-size: 75px;
+    font-family: Agbalumo;
+    color: #fff;
+    text-shadow: 0px 0px 15px #7b2b43;
+}
+.explore-our-space p {
+    margin: 0;
+}
+.for-matcha-lovers {
+    position: absolute;
+    color: #7b2b43;
+    font-size: 24px;
+    top: 435px;
+    left: 215px;
+    display: inline-block;
+    width: 225px;
+    height: 45px;
+}
+.menu, .matcha, .about {
+    font-family: "Lobster Two", sans-serif;
+    position: absolute;
+    font-size: 54px;
+    color: #7b2b43;
+    text-shadow: 0px 4px 8px #9b5368;
+}
+.menu {
+    top: 75px;
+    left: 125px;
+}
+.matcha {
+    top: 25px;
+    left: 735px;
+}
+.about {
+    top: 50px;
+    left: 125px;
+}
+main ul {
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 48px;
+}
+main li {
+    color: #9b5368;
+}
+.menu1-container, .menu2-container, .menu3-container {
+    position: absolute;
+    top: 175px;
+    font-size: 28px;
+}
+.menu1-container {
+    left: 105px;
+}
+.menu2-container {
+    left: 335px;
+}
+.menu3-container {
+    left: 585px;
+}
+.matcha-text {
+    position: absolute;
+    top: 125px;
+    left: 735px;
+    font-size: 24px;
+    display: inline-block;
+    width: 650px;
+}
+.matcha-text p {
+    color: #9b5368;
+}
+.matcha-text ul {
+    font-size: inherit;
+    padding-left: 35px;
+}
+.matcha-text b, span {
+    font-family: "Comic Neue", cursive;
+}
+span {
+    color: #b5798b;
+}
+.about-text {
+    position: absolute;
+    top: 150px;
+    left: 125px;
+    font-size: 24px;
+    display: inline-block;
+    width: 665px;
+}
+.about-text p {
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+    color: #9b5368;
+}
+#get-started {
+    top: 515px;
+    left: 215px;
+}
+#next {
+    top: 450px;
+    left: 125px;
+}
+#finish {
+    top: 500px;
+    left: 125px;
+}
+#next1 {
+    top: 500px;
+    right: 75px;
+}
